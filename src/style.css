@@ -1,0 +1,38 @@
+#container ul{
+
+    width: 100%;
+
+}
+
+#container ul li{
+
+    /* cursor:pointer; */
+    border-bottom: 1px solid #0094e9;
+    opacity: 0.5;
+    transition: 0.3s ease-in-out;
+    padding: 10px 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#container ul li img{
+    height: 100px;
+    border-radius: 50%;
+}
+
+#container ul li:hover{
+   color: #fff;
+    background-color: #0094e9;
+}
+
+#container ul li a{
+   text-decoration: none;
+}
+
+#notFound{
+    padding: 10px;
+    
+}
